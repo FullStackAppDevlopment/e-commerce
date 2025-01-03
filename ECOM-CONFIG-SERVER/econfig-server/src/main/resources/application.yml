@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: econfig-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/FullStackAppDevlopment/app-config.git
